@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<style>
+			form {
+				display: block;
+				padding: 50px;
+				box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+				width: 100%;
+				max-width: 400px;
+				border-radius: 10px;
+				margin: 0 auto;
+				margin-top: 200px;
+				text-align: center;
+				background-color: #fff;
+			}
+
+			input {
+				padding: 5px;
+				box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+					rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+				border: 0;
+			}
+
+			button {
+				display: inline-block;
+				margin-left: 20px;
+				padding: 8px;
+				width: 100%;
+				max-width: 80px;
+				border: 0;
+				border-radius: 5px;
+				background-color: #00d4ff;
+				color: #fff;
+			}
+
+			#btn {
+				display: block;
+				margin: 0 auto;
+				margin-top: 20px;
+			}
+
+			ul {
+				margin: 0 auto;
+				padding: 0;
+				width: 100%;
+				max-width: 200px;
+				margin-top: 50px;
+			}
+
+			li {
+				padding: 10px 0;
+				margin-top: 10px;
+				border-radius: 5px;
+				box-shadow: 0px 0px 15px 0px inset rgb(44, 62, 80);
+				text-transform: uppercase;
+				text-align: center;
+				background-color: #fff;
+			}
+
+			span {
+				display: block;
+				padding: 10px;
+				text-align: center;
+				font-weight: 700;
+				font-size: 28px;
+				margin-top: 20px;
+				color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<form class="js-form" method="post">
+			<input class="js-inp" type="text" placeholder="Enter your massage" />
+			<!-- <textarea
+				class="js-area"
+				name="user_commit"
+				id=""
+				cols="30"
+				rows="10"
+			></textarea> -->
+			<button type="submit">SEND</button>
+		</form>
+		<button id="btn" class="js-btn">RECORD</button>
+
+		<ul class="js-list"></ul>
+
+		<span class="js-span"></span>
+
+		<script src="./js/main.js"></script>
+	</body>
+</html>
